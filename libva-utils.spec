@@ -12,10 +12,10 @@ License:	MIT
 Url:		http://freedesktop.org/wiki/Software/vaapi
 Source0:	https://github.com/intel/libva-utils/archive/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(libdrm)
-BuildRequires:	pkgconfig(libva)
-BuildRequires:	pkgconfig(libva-drm)
-BuildRequires:	pkgconfig(libva-x11)
-BuildRequires:	pkgconfig(libva-wayland)
+BuildRequires:	pkgconfig(libva) >= %{version}
+BuildRequires:	pkgconfig(libva-drm) >= %{version}
+BuildRequires:	pkgconfig(libva-x11) >= %{version}
+BuildRequires:	pkgconfig(libva-wayland) >= %{version}
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(xfixes)
