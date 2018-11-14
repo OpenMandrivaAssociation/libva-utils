@@ -47,3 +47,5 @@ libva support is available on a system.
 %{_bindir}/vainfo
 %{_bindir}/vavpp
 %{_bindir}/vp9enc
+%{_bindir}/h264enc
+%{_bindir}/vp8enc
