@@ -20,6 +20,7 @@ BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(xfixes)
 BuildRequires:	pkgconfig(wayland-client)
+BuildRequires:	meson
 
 %description
 The %{name} package contains tools that are provided as part
