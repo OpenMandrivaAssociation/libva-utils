@@ -41,7 +41,6 @@ libva support is available on a system.
 %{_bindir}/avcenc
 %{_bindir}/jpegenc
 %{_bindir}/mpeg2vaenc
-%{_bindir}/h264encode
 %{_bindir}/loadjpeg
 %{_bindir}/mpeg2vldemo
 %{_bindir}/putsurface*
