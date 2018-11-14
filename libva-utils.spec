@@ -1,7 +1,7 @@
 %define major 2
 %define libname %mklibname va %{major}
 %define devname %mklibname va -d
-%bcond_without utils
+%define va_version 1.3.0
 
 Summary:	Tools for libva (including vainfo)
 Name:		libva-utils
@@ -12,10 +12,10 @@ License:	MIT
 Url:		http://freedesktop.org/wiki/Software/vaapi
 Source0:	https://github.com/intel/libva-utils/archive/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(libdrm)
-BuildRequires:	pkgconfig(libva) >= %{version}
-BuildRequires:	pkgconfig(libva-drm) >= %{version}
-BuildRequires:	pkgconfig(libva-x11) >= %{version}
-BuildRequires:	pkgconfig(libva-wayland) >= %{version}
+BuildRequires:	pkgconfig(libva) >= %{va_version}
+BuildRequires:	pkgconfig(libva-drm) >= %{va_version}
+BuildRequires:	pkgconfig(libva-x11) >= %{va_version}
+BuildRequires:	pkgconfig(libva-wayland) >= %{va_version}
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(xfixes)
