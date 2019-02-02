@@ -1,11 +1,11 @@
 %define major 2
 %define libname %mklibname va %{major}
 %define devname %mklibname va -d
-%define va_version 1.3.0
+%define va_version 1.4.0
 
 Summary:	Tools for libva (including vainfo)
 Name:		libva-utils
-Version:	2.3.0
+Version:	2.4.0
 Release:	1
 Group:		System/Libraries
 License:	MIT
