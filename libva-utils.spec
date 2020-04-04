@@ -5,7 +5,7 @@
 
 Summary:	Tools for libva (including vainfo)
 Name:		libva-utils
-Version:	2.6.0
+Version:	2.7.1
 Release:	1
 Group:		System/Libraries
 License:	MIT
@@ -39,13 +39,22 @@ libva support is available on a system.
 
 %files
 %{_bindir}/avcenc
+%{_bindir}/avcstreamoutdemo
+%{_bindir}/hevcencode
+%{_bindir}/h264encode
 %{_bindir}/jpegenc
 %{_bindir}/mpeg2vaenc
 %{_bindir}/loadjpeg
 %{_bindir}/mpeg2vldemo
 %{_bindir}/putsurface*
+%{_bindir}/sfcsample
 %{_bindir}/vainfo
 %{_bindir}/vavpp
-%{_bindir}/vp9enc
-%{_bindir}/h264encode
+%{_bindir}/vppblending
+%{_bindir}/vppchromasitting
+%{_bindir}/vppdenoise
+%{_bindir}/vppscaling_csc
+%{_bindir}/vppscaling_n_out_usrptr
+%{_bindir}/vppsharpness
 %{_bindir}/vp8enc
+%{_bindir}/vp9enc
