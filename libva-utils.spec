@@ -1,12 +1,12 @@
 %define major 2
 %define libname %mklibname va %{major}
 %define devname %mklibname va -d
-%define va_version 1.4.0
+%define va_version 1.11.0
 
 Summary:	Tools for libva (including vainfo)
 Name:		libva-utils
 Version:	2.11.1
-Release:	1
+Release:	2
 Group:		System/Libraries
 License:	MIT
 Url:		http://freedesktop.org/wiki/Software/vaapi
