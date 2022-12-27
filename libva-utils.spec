@@ -38,6 +38,7 @@ libva support is available on a system.
 %meson_install
 
 %files
+%{_bindir}/av1encode
 %{_bindir}/avcenc
 %{_bindir}/avcstreamoutdemo
 %{_bindir}/hevcencode
@@ -48,8 +49,11 @@ libva support is available on a system.
 %{_bindir}/mpeg2vldemo
 %{_bindir}/putsurface*
 %{_bindir}/sfcsample
+%{_bindir}/vacopy
 %{_bindir}/vainfo
 %{_bindir}/vavpp
+%{_bindir}/vpp3dlut
+%{_bindir}/vpphdr_tm
 %{_bindir}/vppblending
 %{_bindir}/vppchromasitting
 %{_bindir}/vppdenoise
