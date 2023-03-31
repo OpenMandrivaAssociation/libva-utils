@@ -6,7 +6,7 @@
 Summary:	Tools for libva (including vainfo)
 Name:		libva-utils
 Version:	2.17.1
-Release:	1
+Release:	2
 Group:		System/Libraries
 License:	MIT
 Url:		http://freedesktop.org/wiki/Software/vaapi
