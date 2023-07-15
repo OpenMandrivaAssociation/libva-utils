@@ -5,7 +5,7 @@
 
 Summary:	Tools for libva (including vainfo)
 Name:		libva-utils
-Version:	2.18.2
+Version:	2.19.0
 Release:	1
 Group:		System/Libraries
 License:	MIT
