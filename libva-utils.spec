@@ -5,11 +5,11 @@
 
 Summary:	Tools for libva (including vainfo)
 Name:		libva-utils
-Version:	2.20.1
+Version:	2.21.0
 Release:	1
 Group:		System/Libraries
 License:	MIT
-Url:		http://freedesktop.org/wiki/Software/vaapi
+Url:		https://freedesktop.org/wiki/Software/vaapi
 Source0:	https://github.com/intel/libva-utils/archive/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(libdrm)
 BuildRequires:	pkgconfig(libva) >= %{va_version}
